@@ -1,5 +1,5 @@
 {
-  "name": "react-native-classicbluetooth-sdk",
+  "name": "react-native-classic-bluetooth-sdk",
   "version": "1.0.4",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
@@ -60,5 +60,16 @@
   "eslintIgnore": [
     "node_modules/",
     "lib/"
-  ]
+  ],
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
 }
