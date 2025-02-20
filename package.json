@@ -1,5 +1,5 @@
 {
-  "name": "react-native-classic-bluetooth-sdk",
+  "name": "@nishit_chauhan/react-native-classic-bluetooth-sdk",
   "version": "1.0.4",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
